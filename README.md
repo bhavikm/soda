@@ -23,6 +23,9 @@ to search use:
 
 k is a integer, represents the rank of the singular matrix (containing the singular values of the term document matrix). There is no good way to choose k but a heuristic is to pick k << n, where n = rank(A) <= min(t,d) and A is the term (t) document (d) matrix. See http://www.site.uottawa.ca/~diana/csi4107/LSI.pdf for more information. The 'auto' option is not currently working.
 
+Example
+======
+
 Build index from text files in a corpus (must do this before searching):
 > java soda index corpus . stopwords.txt
 

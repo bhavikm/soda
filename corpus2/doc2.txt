@@ -1,0 +1,75 @@
+A uniform resource locator, abbreviated URL, also known as web address, is a specific character string that constitutes a reference to a resource. In most web browsers, the URL of a web page is displayed on top inside an address bar. An example of a typical URL would be "http://en.example.org/wiki/Main_Page". A URL is technically a type of uniform resource identifier (URI), but in many technical documents and verbal discussions, URL is often used as a synonym for URI, and this is not considered a problem.[1]
+Contents  [hide] 
+1 History
+2 Syntax
+3 List of allowed URL characters
+4 Relationship to URI
+5 Internet hostnames
+6 Modern usage
+7 See also
+8 Notes
+9 References
+10 External links
+History[edit source | editbeta]
+
+The Uniform Resource Locator was created in 1994[2] by Tim Berners-Lee and the URI working group of the Internet Engineering Task Force (IETF) as an outcome of collaboration started at the IETF Living Documents "Birds of a Feather" session in 1992.[3][4] The format combines the pre-existing system of domain names (created in 1985) with file path syntax, where slashes are used to separate directory and file names. Conventions already existed where server names could be prepended to complete file paths, preceded by a double-slash (//).[5]
+Berners-Lee later regretted the use of dots to separate the parts of the domain name within URIs, wishing he had used slashes throughout.[5] For example, http://www.example.com/path/to/name would have been written http:com/example/www/path/to/name. Berners-Lee has also said that, given the colon following the URI scheme, the two forward slashes before the domain name were also unnecessary.[6]
+Syntax[edit source | editbeta]
+
+Main article: URI scheme#Generic syntax
+Every URL consists of the following:
+the scheme name (commonly called protocol), then
+a colon, two slashes,[note 1], then
+a host, normally given as a domain name[note 2] but sometimes as a literal IP address, then
+optionally a port number, then
+the full path of the resource
+The scheme says how to connect, the host specifies where to connect, and the remainder specifies what to ask for.
+For programs such as Common Gateway Interface (CGI) scripts, this is followed by a query string,[7][8] and an optional fragment identifier.[9]
+The syntax is:
+scheme://domain:port/path?query_string#fragment_id
+The scheme name defines the namespace, purpose, and the syntax of the remaining part of the URL. Software will try to process a URL according to its scheme and context. For example, a web browser will usually dereference the URL http://example.org:80 by performing an HTTP request to the host at example.org, using port number 80. The URL mailto:bob@example.com may start an e-mail composer with the address bob@example.com in the To field.
+Other examples of scheme names include https:, gopher:, wais:, ftp:. URLs with https as a scheme (such as https://example.com/) require that requests and responses will be made over a secure connection to the website. Some schemes that require authentication allow a username, and perhaps a password too, to be embedded in the URL, for example ftp://asmith@ftp.example.org. Passwords embedded in this way are not conducive to security, but the full possible syntax is
+scheme://username:password@domain:port/path?query_string#fragment_id
+The domain name or literal numeric IP address gives the destination location for the URL. A literal numeric IPv6 address may be given, but must be enclosed in [ ] e.g. [db8:0cec::99:123a].
+The domain google.com, or its numeric IP address 72.14.207.99, is the address of Google's website.
+The domain name portion of a URL is not case sensitive since DNS ignores case:
+http://en.example.org/ and HTTP://EN.EXAMPLE.ORG/ both open the same page.
+The port number, given in decimal, is optional; if omitted, the default for the scheme is used.
+For example, http://vnc.example.com:5800 connects to port 5800 of vnc.example.com, which may be appropriate for a VNC remote control session. If the port number is omitted for an http: URL, the browser will connect on port 80, the default HTTP port. The default port for an https: request is 443.
+The path is used to specify and perhaps find the resource requested. It is case-sensitive,[10] though it may be treated as case-insensitive by some servers, especially those based on Microsoft Windows.
+If the server is case sensitive and http://en.example.org/wiki/URL is correct, then http://en.example.org/WIKI/URL or http://en.example.org/wiki/url will display an HTTP 404 error page, unless these URLs point to valid resources themselves.
+The query string contains data to be passed to software running on the server. It may contain name/value pairs separated by ampersands, for example
+?first_name=John&last_name=Doe.
+The fragment identifier, if present, specifies a part or a position within the overall resource or document.
+When used with HTML, it usually specifies a section or location within the page, and used in combination with Anchor Tags the browser is scrolled to display that part of the page.
+List of allowed URL characters[edit source | editbeta]
+
+Unreserved
+May be encoded but it is not necessary
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 1 2 3 4 5 6 7 8 9 - _ . ~
+Reserved
+Have to be encoded sometimes
+! * ' ( ) ; : @ & = + $ , / ? % # [ ]
+Further details can for example be found in RFC 3986 and http://www.w3.org/Addressing/URL/uri-spec.html.
+Relationship to URI[edit source | editbeta]
+
+See also: URIs, Relationship to URL and URN
+A URL is a URI that, in addition to identifying a web resource, provides a means of locating the resource by describing its "primary access mechanism (e.g., its network location)".[11]
+Internet hostnames[edit source | editbeta]
+
+Main article: Hostname
+On the Internet, a hostname is a domain name assigned to a host computer. This is usually a combination of the host's local name with its parent domain's name. For example, en.example.org consists of a local hostname (en) and the domain name example.org. The hostname is translated into an IP address via the local hosts file, or the domain name system (DNS) resolver. It is possible for a single host computer to have several hostnames; but generally the operating system of the host prefers to have one hostname that the host uses for itself.
+Any domain name can also be a hostname, as long as the restrictions mentioned below are followed. For example, both "en.example.org" and "example.org" can be hostnames if they both have IP addresses assigned to them. The domain name "xyz.example.org" may not be a hostname if it does not have an IP address, but "aa.xyz.example.org" may still be a hostname. All hostnames are domain names, but not all domain names are hostnames.
+Modern usage[edit source | editbeta]
+
+Major computer manufacturers such as Apple have begun to deprecate APIs that take local paths as parameters, in favour of using URLs.[12] This is because remote and local resources (via the file:// scheme) may both be represented using a URL, but may additionally provide a protocol (particularly useful for remote items) and credentials.
+See also[edit source | editbeta]
+
+CURIE (Compact URI)
+Forwardslash
+Fragment identifier
+Internationalized Resource Identifier (IRI)
+URL normalization
+Clean URL

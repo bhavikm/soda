@@ -1,0 +1,32 @@
+What's the trick to catching a bartender's attention? Clicking your fingers? Drumming them nervously on the bar? How about waving your wallet or better still, a big fat wad of cash, under their nose?
+
+If you're desperate for a drink and the crowd at the bar is three-foot deep, you've probably tried all of these methods at some point. But researchers in Europe have discovered the most effective trick is, well, fairly obviously really: face the bar directly, and better yet, make eye contact with the bartender. "Both signals were necessary and, when occurring together, sufficient," the researchers from Bielefeld University in Germany reported in a journal article published recently in the online journal Frontiers in Psychology.
+
+It sounds simple enough, and apparently, that's what most people actually do. Yet a small group of individuals, about one in 15 people, will try the wallet trick while an even smaller percentage, about one in 25 people, will try signalling the bartender - all to no avail.
+
+Researchers observed customer-bartender relations in bars across Germany as part of a project to develop a robot that can read body language and respond appropriately, namely, identify those customers who most want to be served and to respond fairly - even identifying those customers who were first in-line.
+
+Advertisement
+The researchers were trying to identify the body language most people adopt when they want service and also found the simple, direct approach was most likely to produce a response from the bartender.
+
+Goodfood.com.au bar reviewer Michael Harden said he was not surprised, but said cultural factors had to be taken into account. "In the United States with its tipping culture, waving a wad of cash around can help," he said. But this trick did not play quite so well in Australia or Europe where you might be perceived as arrogant, Harden added.
+
+For his part, Harden said that after years of hard slog doing his own "research" in bars, he'd discovered that establishing eye-contact with a bartender was most effective in getting served. "Clicking is definitely the worst thing you can do. You don't want to annoy a bartender.
+
+"I've also found that if all the bartenders are male you might be better off sending a female friend up to get the drinks.
+
+"But the best thing you can do is try and lock eyes with a bartender. Once you've managed to gain eye contact, then generally you'll be right."
+
+Bartender Dave Kerr from The Beaufort bar in Carlton (Melbourne) disagreed with some of the German researchers' findings. "Showing you have your money ready is definitely a great key," said Kerr. "You'd be amazed how many people ask for their drink and then go, 'Oh, right, I have to pay', like it's a big surprise."
+
+Kerr, whose bar is often five-people deep on a Friday or Saturday night, pointed out there are more complex factors at play in a real-life situation, such as rapport with repeat-customers.
+
+"Ideally it should be first-come, first serve and that's what you try to do... But often the aim of the game is speed so you might have a tendency to go back to the customers who don't muck around, who know what they want and who have their money ready.
+
+"You also remember the customers who are easy to serve; the ones who want a beer whereas your eyes might glaze over if you see the 12-cocktail guy again."
+
+While the scientists from Bielefeld University have managed to program a robot known as James (Joint Action in Multimodal Embodied Systems) to only communicate with people whose position and body language signify they want to order a drink, Michael Harden said he hoped robots would not replace human bartenders any time soon.
+
+"Though it depends on the bar," he added. "If you're talking about a beer barn at Crown or along (Melbourne's) King Street, well all you need to know how to do is pour Bundy and Coke and beers."
+
+On the plus side, Harden said a robot would not "roll its eyes when you order a Midori and milk".

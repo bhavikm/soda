@@ -1,0 +1,285 @@
+Universal Serial Bus (USB) is an industry standard developed in the mid-1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.[2]
+USB was designed to standardize the connection of computer peripherals (including keyboards, pointing devices, digital cameras, printers, portable media players, disk drives and network adapters) to personal computers, both to communicate and to supply electric power. It has become commonplace on other devices, such as smartphones, PDAs and video game consoles.[3] USB has effectively replaced a variety of earlier interfaces, such as serial and parallel ports, as well as separate power chargers for portable devices.
+Contents  [hide] 
+1 Overview
+2 History
+2.1 Version history
+2.1.1 Prereleases
+2.1.2 USB 1.x
+2.1.3 USB 2.0
+2.1.4 USB 3.0
+2.1.5 USB 3.1 (SuperSpeed 10 Gbps)
+3 System design
+4 Device classes
+4.1 USB mass storage / USB drive
+4.2 Media Transfer Protocol
+4.3 Human interface devices
+5 Physical appearance
+5.1 Connector properties
+5.1.1 Usability and "upside down" connectors
+5.1.2 Durability
+5.1.3 Compatibility
+5.1.3.1 USB 3.0 connectors
+5.2 Connector types
+5.2.1 Standard connectors
+5.2.2 Mini and Micro connectors
+5.2.3 USB On-The-Go Connectors
+5.2.4 Host and Device interface receptacles
+5.2.5 Cable plugs (USB 1.x/2.0)
+5.2.6 Cable plugs (USB 3.0)
+5.2.7 Proprietary connectors and formats
+6 Cabling
+7 Power
+7.1 Charging ports and accessory charging adapters
+7.2 Sleep-and-charge ports
+7.3 Mobile device charger standards
+7.3.1 In China
+7.3.2 OMTP/GSMA Universal Charging Solution
+7.3.3 EU Smartphone Power Supply Standard
+7.4 Non-standard devices
+7.5 USB Power Delivery specification
+7.6 Powered USB
+8 Signaling
+9 Transmission rates
+10 Latency
+11 Communication
+11.1 Handshake packets
+11.2 Token packets
+11.3 Data packets
+11.4 PRE packet
+12 Comparisons with other connection methods
+12.1 FireWire
+12.2 Ethernet
+12.3 MIDI
+12.4 eSATA/eSATAp
+12.5 Thunderbolt
+12.6 Lightning
+13 Interoperability
+14 Related standards
+15 See also
+16 References
+17 Further reading
+18 External links
+Overview[edit source | editbeta]
+
+In general overview, there are four basic kinds or sizes of USB connector systems; 1) the older "Standard" (e.g. on USB flash drives), 2) the now-deprecated "Mini," 3) the "Micro," and 4), the versatile "USB On-The-Go" scheme in both Mini and Micro sizes.
+Unlike common household power extension cords, each end of a USB cable uses a different kind of connector; an A type and a B type. (In part this design is to prevent electrical overloads and smoked equipment.) Therefore in general, any of these four "sizes" each requires four different connectors; a male and female A-type at one end, plus a male and female B-type at the other. Counter-intuitively, the "micro" is the most durable.
+They also come in four data transfer speeds, Low Speed, Full Speed, High Speed and Super Speed. High Speed is only supported by specifically designed USB 2.0 HighSpeed interfaces (that is, USB 2.0 controllers without the High Speed designation do not support it), as well as by USB 3.0 interfaces. Super Speed is only supported by USB 3.0 interfaces.
+USB 3.0 is also called "SuperSpeed," —being up to ten or more times faster than the more common USB 2.0.
+History[edit source | editbeta]
+
+Large circle is left end of horizontal line. The line forks into three branches ending in circle, triangle and square symbols.
+
+The basic USB trident logo [4]
+
+
+USB sign is on the head of a USB Cable
+A group of seven companies began the development of USB in 1994: Compaq, DEC, IBM, Intel, Microsoft, NEC, and Nortel. The goal was to make it fundamentally easier to connect external devices to PCs by replacing the multitude of connectors at the back of PCs, addressing the usability issues of existing interfaces, and simplifying software configuration of all devices connected to USB, as well as permitting greater data rates for external devices. A team including Ajay Bhatt worked on the standard at Intel;[5][6] the first integrated circuits supporting USB were produced by Intel in 1995.[7]
+The original USB 1.0 specification, which was introduced in January 1996, defined data transfer rates of 1.5 Mbit/s "Low Speed" and 12 Mbit/s "Full Speed".[7] The first widely used version of USB was 1.1, which was released in September 1998. The 12 Mbit/s data rate was intended for higher-speed devices such as disk drives, and the lower 1.5 Mbit/s rate for low data rate devices such as joysticks.[8]
+
+
+A USB Standard Type A plug, the most common USB plug
+The USB 2.0 specification was released in April 2000 and was ratified by the USB Implementers Forum (USB-IF) at the end of 2001. Hewlett-Packard, Intel, Lucent Technologies (now Alcatel-Lucent), NEC and Philips jointly led the initiative to develop a higher data transfer rate, with the resulting specification achieving 480 Mbit/s, a forty times increase over the original USB 1.1 specification.
+The USB 3.0 specification was published on 12 November 2008. Its main goals were to increase the data transfer rate (up to 5 Gbit/s), decrease power consumption, increase power output, and be backwards-compatible with USB 2.0.[9] USB 3.0 includes a new, higher speed bus called SuperSpeed in parallel with the USB 2.0 bus.[10] For this reason, the new version is also called SuperSpeed.[11] The first USB 3.0 equipped devices were presented in January 2010.[11][12]
+As of 2008, approximately six billion USB ports and interfaces were in the global marketplace, and about 2 billion were being sold each year.[13]
+Version history[edit source | editbeta]
+
+
+A PCI USB 2.0 card for a computer motherboard
+Prereleases[edit source | editbeta]
+The USB standard evolved through several versions before its official release in 1996:
+USB 0.7: Released in November 1994.
+USB 0.8: Released in December 1994.
+USB 0.9: Released in April 1995.
+USB 0.99: Released in August 1995.
+USB 1.0 Release Candidate: Released in November 1995.
+USB 1.x[edit source | editbeta]
+Released in January 1996, USB 1 specified data rates of 1.5 Mbit/s (Low-Bandwidth) and 12 Mbit/s (Full-Bandwidth). It did not allow for extension cables or pass-through monitors (due to timing and power limitations). Few USB devices made it to market until USB 1.1, released in August 1998, which fixed problems identified in 1.0, mostly relating to hubs. 1.1 was the earliest revision that was widely adopted. USB 1 is usually colored white, but some white USB ports are "USB 2 Compatible"
+USB 2.0[edit source | editbeta]
+
+
+The Hi-Speed USB Logo
+USB 2.0: Released in April 2000. Added higher maximum signaling rate of 480 Mbit/s (effective throughput up to 35 MB/s or 280 Mbit/s) (now called "Hi-Speed"). USB 2 is usually colored black. Further modifications to the USB specification have been done via Engineering Change Notices (ECN). The most important of these ECNs are included into the USB 2.0 specification package available from USB.org:[14]
+Mini-A and Mini-B Connector ECN: Released in October 2000.
+Specifications for Mini-A and B plug and receptacle. Also receptacle that accepts both plugs for On-The-Go. These should not be confused with Micro-B plug and receptacle.
+Errata as of December 2000: Released in December 2000
+Pull-up/Pull-down Resistors ECN: Released in May 2002
+Errata as of May 2002: Released in May 2002
+Interface Associations ECN: Released in May 2003.
+New standard descriptor was added that allows associating multiple interfaces with a single device function.
+Rounded Chamfer ECN: Released in October 2003.
+A recommended, compatible change to Mini-B plugs that results in longer lasting connectors.
+Unicode ECN: Released in February 2005.
+This ECN specifies that strings are encoded using UTF-16LE. USB 2.0 specified Unicode, but did not specify the encoding.
+Inter-Chip USB Supplement: Released in March 2006
+On-The-Go Supplement 1.3: Released in December 2006.
+USB On-The-Go makes it possible for two USB devices to communicate with each other without requiring a separate USB host. In practice, one of the USB devices acts as a host for the other device.
+Battery Charging Specification 1.1: Released in March 2007 (Updated 15 Apr 2009).
+Adds support for dedicated chargers (power supplies with USB connectors), host chargers (USB hosts that can act as chargers) and the No Dead Battery provision, which allows devices to temporarily draw 100 mA current after they have been attached. If a USB device is connected to dedicated charger, maximum current drawn by the device may be as high as 1.8 A. (Note that this document is not distributed with USB 2.0 specification package only USB 3.0 and USB On-The-Go.)
+Micro-USB Cables and Connectors Specification 1.01: Released in April 2007.
+Link Power Management Addendum ECN: Released in July 2007.
+This adds "sleep", a new power state between enabled and suspended states. Device in this state is not required to reduce its power consumption. However, switching between enabled and sleep states is much faster than switching between enabled and suspended states, which allows devices to sleep while idle.
+Battery Charging Specification 1.2:[15] Released in December 2010.
+Several changes and increasing limits including allowing 1.5 A on charging ports for unconfigured devices, allowing High Speed communication while having a current up to 1.5 A and allowing a maximum current of 5 A.
+USB 3.0[edit source | editbeta]
+Main article: USB 3.0
+
+
+The SuperSpeed USB Logo
+USB 3.0 was released in November 2008. The standard defines a new "SuperSpeed" mode with a signalling speed of 5 Gbit/s and a usable data rate of up to 4 Gbit/s. USB 3 is usually colored blue. USB 3.0 reduces the time required for data transmission, thereby reducing power consumption, and is backwards compatible with USB 2.0. The USB 3.0 Promoter Group announced on 17 November 2008 that the specification of version 3.0 had been completed and had made the transition to the USB Implementers Forum (USB-IF), the managing body of USB specifications.[16] This move effectively opened the specification to hardware developers for implementation in products. The new "SuperSpeed" bus provides a fourth transfer mode at 5.0 Gbit/s (raw data rate), in addition to the modes supported by earlier versions. The payload throughput is 4 Gbit/s (using 8b/10b encoding), and the specification considers it reasonable to achieve around 3.2 Gbit/s (0.4 GB/s or 400 MB/s), which should increase with future hardware advances. Communication is full-duplex during SuperSpeed; in the modes supported previously, by 1.x and 2.0, communication is half-duplex, with direction controlled by the host.
+Power Handling Capabilities: As with previous USB versions, USB 3.0 ports come in low-power and high-power variants, providing 150 mA and 900 mA respectively while simultaneously transmitting data at SuperSpeed rates.[17] Additionally, there is a Battery Charging Specification (Version 1.2 – December 2010), which increases the power handling capability to 1.5 A but does not allow concurrent data transmission.[15] The Battery Charging Specification requires that the physical ports themselves be capable of handling 5 A of current[citation needed] but the specification limits the maximum current drawn to 1.5 A.
+A January 2013 press release[18] from the USB group reveals plans to update USB 3 to 10 Gbit/s to put it on par with Thunderbolt by mid-2013. A June 2013 DigiTimes article described this as "USB 3.5" and quoted ASMedia Technology president Chewei Lin as saying the chips were in development, with availability scheduled for 2014.[19]
+USB 3.1 (SuperSpeed 10 Gbps)[edit source | editbeta]
+USB 3.1 was announced on July 31, 2013.[20] The new specification introduces a faster transfer mode called "SuperSpeed USB 10 Gbps", its logo features a SUPERSPEED+ caption. It increases the signalling rate to 10 Gbit/s, double that of USB 3.0. Developer sessions aimed at developers wishing to implement the new specification will begin on August 21, 2013.[21] The standard is backwards compatible with USB 3.0 and USB 2.0. It will allow for up to 100 W to be sent through a USB cable.[22]
+System design[edit source | editbeta]
+
+The design architecture of USB is asymmetrical in its topology, consisting of a host, a multitude of downstream USB ports, and multiple peripheral devices connected in a tiered-star topology. Additional USB hubs may be included in the tiers, allowing branching into a tree structure with up to five tier levels. A USB host may implement multiple host controllers and each host controller may provide one or more USB ports. Up to 127 devices, including hub devices if present, may be connected to a single host controller.[23][24] USB devices are linked in series through hubs. One hub—built into the host controller—is the root hub.
+A physical USB device may consist of several logical sub-devices that are referred to as device functions. A single device may provide several functions, for example, a webcam (video device function) with a built-in microphone (audio device function). This kind of device is called a composite device. An alternative for this is compound device in which each logical device is assigned a distinctive address by the host and all logical devices are connected to a built-in hub to which the physical USB wire is connected.
+Diagram: inside a device are several endpoints, each of which is connected by a logical pipes to a host controller. Data in each pipe flows in one direction, although there are a mixture going to and from the host controller.
+
+USB endpoints actually reside on the connected device: the channels to the host are referred to as pipes
+USB device communication is based on pipes (logical channels). A pipe is a connection from the host controller to a logical entity, found on a device, and named an endpoint. Because pipes correspond 1-to-1 to endpoints, the terms are sometimes used interchangeably. A USB device can have up to 32 endpoints, though USB devices seldom have this many endpoints. An endpoint is built into the USB device by the manufacturer and therefore exists permanently, while a pipe may be opened and closed.
+There are two types of pipes: stream and message pipes. A message pipe is bi-directional and is used for control transfers. Message pipes are typically used for short, simple commands to the device, and a status response, used, for example, by the bus control pipe number 0. A stream pipe is a uni-directional pipe connected to a uni-directional endpoint that transfers data using an isochronous, interrupt, or bulk transfer:
+isochronous transfers: at some guaranteed data rate (often, but not necessarily, as fast as possible) but with possible data loss (e.g., realtime audio or video).
+interrupt transfers: devices that need guaranteed quick responses (bounded latency) (e.g., pointing devices and keyboards).
+bulk transfers: large sporadic transfers using all remaining available bandwidth, but with no guarantees on bandwidth or latency (e.g., file transfers).
+An endpoint of a pipe is addressable with a tuple (device_address, endpoint_number) as specified in a TOKEN packet that the host sends when it wants to start a data transfer session. If the direction of the data transfer is from the host to the endpoint, an OUT packet (a specialization of a TOKEN packet) having the desired device address and endpoint number is sent by the host. If the direction of the data transfer is from the device to the host, the host sends an IN packet instead. If the destination endpoint is a uni-directional endpoint whose manufacturer's designated direction does not match the TOKEN packet (e.g., the manufacturer's designated direction is IN while the TOKEN packet is an OUT packet), the TOKEN packet is ignored. Otherwise, it is accepted and the data transaction can start. A bi-directional endpoint, on the other hand, accepts both IN and OUT packets.
+Rectangular opening where the width is twice the height. The opening has metal rim, and within the opening a flat rectangular bar runs parallel to the top side.
+
+Two USB standard A sockets on the front of a computer
+Endpoints are grouped into interfaces and each interface is associated with a single device function. An exception to this is endpoint zero, which is used for device configuration and is not associated with any interface. A single device function composed of independently controlled interfaces is called a composite device. A composite device only has a single device address because the host only assigns a device address to a function.
+When a USB device is first connected to a USB host, the USB device enumeration process is started. The enumeration starts by sending a reset signal to the USB device. The data rate of the USB device is determined during the reset signaling. After reset, the USB device's information is read by the host and the device is assigned a unique 7-bit address. If the device is supported by the host, the device drivers needed for communicating with the device are loaded and the device is set to a configured state. If the USB host is restarted, the enumeration process is repeated for all connected devices.
+The host controller directs traffic flow to devices, so no USB device can transfer any data on the bus without an explicit request from the host controller. In USB 2.0, the host controller polls the bus for traffic, usually in a round-robin fashion. The throughput of each USB port is determined by the slower speed of either the USB port or the USB device connected to the port.
+High-speed USB 2.0 hubs contain devices called transaction translators that convert between high-speed USB 2.0 buses and full and low speed buses. When a high-speed USB 2.0 hub is plugged into a high-speed USB host or hub, it operates in high-speed mode. The USB hub then uses either one transaction translator per hub to create a full/low-speed bus routed to all full and low speed devices on the hub, or uses one transaction translator per port to create an isolated full/low-speed bus per port on the hub.
+Because there are two separate controllers in each USB 3.0 host, USB 3.0 devices transmit and receive at USB 3.0 data rates regardless of USB 2.0 or earlier devices connected to that host. Operating data rates for earlier devices are set in the legacy manner.
+Device classes[edit source | editbeta]
+
+The functionality of USB devices is defined by class codes, communicated to the USB host to affect the loading of suitable software driver modules for each connected device. This provides for adaptability and device independence of the host to support new devices from different manufacturers.
+Device classes include:[25]
+Class	Usage	Description	Examples, or exception
+00h	Device	Unspecified[26]	Device class is unspecified, interface descriptors are used to determine needed drivers
+01h	Interface	Audio	Speaker, microphone, sound card, MIDI
+02h	Both	Communications and CDC Control	Modem, Ethernet adapter, Wi-Fi adapter
+03h	Interface	Human interface device (HID)	Keyboard, mouse, joystick
+05h	Interface	Physical Interface Device (PID)	Force feedback joystick
+06h	Interface	Image	Webcam, scanner
+07h	Interface	Printer	Laser printer, inkjet printer, CNC machine
+08h	Interface	Mass storage (MSC or UMS)	USB flash drive, memory card reader, digital audio player, digital camera, external drive
+09h	Device	USB hub	Full bandwidth hub
+0Ah	Interface	CDC-Data	Used together with class 02h: communications and CDC control
+0Bh	Interface	Smart Card	USB smart card reader
+0Dh	Interface	Content security	Fingerprint reader
+0Eh	Interface	Video	Webcam
+0Fh	Interface	Personal Healthcare	Pulse monitor (watch)
+10h	Interface	Audio/Video (AV)	Webcam, TV
+DCh	Both	Diagnostic Device	USB compliance testing device
+E0h	Interface	Wireless Controller	Bluetooth adapter, Microsoft RNDIS
+EFh	Both	Miscellaneous	ActiveSync device
+FEh	Interface	Application-specific	IrDA Bridge, Test & Measurement Class (USBTMC),[27] USB DFU (Direct Firmware update)[28]
+FFh	Both	Vendor-specific	Indicates that a device needs vendor specific drivers
+USB mass storage / USB drive[edit source | editbeta]
+
+
+A flash drive, a typical USB mass-storage device
+USB implements connections to storage devices using a set of standards called the USB mass storage device class (MSC or UMS). This was at first intended for traditional magnetic and optical drives, but has been extended to support a wide variety of devices, particularly flash drives, because many systems can be controlled with the familiar metaphor of file manipulation within directories. The process of making a novel device look like a familiar device is also known as extension. The ability to boot a write-locked SD card with a USB adapter is particularly advantageous for maintaining the integrity and non-corruptible, pristine state of the booting medium.
+Though most post-Summer 2004 computers are capable of booting from USB mass storage devices, USB is not intended as a primary bus for a computer's internal storage: buses such as Parallel ATA (PATA or IDE), Serial ATA (SATA), or SCSI fulfill that role in PC class computers. However, USB has one important advantage in that it is possible to install and remove devices without rebooting the computer (hot-swapping), making it useful for mobile peripherals, including drives of various kinds. Originally conceived and still used today for optical storage devices (CD-RW drives, DVD drives and so on), several manufacturers offer external portable USB hard disk drives, or empty enclosures for disk drives, which offer performance comparable to internal drives, limited by the current number and type of attached USB devices and by the upper limit of the USB interface (in practice about 30 MB/s for USB 2.0 and potentially 400 MB/s or more[29] for USB 3.0). These external drives have typically included a "translating device" that bridges between a drive's interface to a USB interface port. Functionally, the drive appears to the user much like an internal drive. Other competing standards for external drive connectivity include eSATA, ExpressCard (now at version 2.0), FireWire (IEEE 1394), and most recently Thunderbolt.
+Another use for USB mass storage devices is the portable execution of software applications (such as web browsers and VoIP clients) with no need to install them on the host computer.[30][31]
+Media Transfer Protocol[edit source | editbeta]
+Media Transfer Protocol (MTP) was designed by Microsoft to give higher-level access to a device's filesystem than USB mass storage, at the level of files rather than disk blocks. It also has optional DRM features. MTP was designed for use with portable media players, but it has since been adopted as the primary storage access protocol of the Android operating system from the version 4.1 Jelly Bean as well as Windows Phone 8 (Windows Phone 7 devices had used the Zune protocol was an evolution of MTP).
+Human interface devices[edit source | editbeta]
+Main article: USB human interface device class
+Joysticks, keypads, tablets and other human-interface devices (HIDs) are also progressively migrating from MIDI, and PC game port connectors to USB.[citation needed]
+USB mice and keyboards can usually be used with older computers that have PS/2 connectors with the aid of a small USB-to-PS/2 adapter. For mice and keyboards with dual-protocol support, an adaptor that contains no logic circuitry may be used: the hardware in the USB keyboard or mouse is designed to detect whether it is connected to a USB or PS/2 port, and communicate using the appropriate protocol. Converters also exist that connect PS/2 keyboards and mice (usually one of each) to a USB port. These devices present two HID endpoints to the system and use a microcontroller to perform bidirectional data translation between the two standards.[citation needed]
+Physical appearance[edit source | editbeta]
+
+
+
+Standard, Mini, and Micro USB plugs (not to scale). The white areas in these drawings represent hollow spaces. As the plugs are shown here, the USB logo (with optional letter A or B) is on the top of the overmold in all cases. Pin numbering looking into receptacles is mirrored from plugs, such that pin 1 on plug connects to pin 1 on the receptacle.[32]
+
+
+Micro-B USB 3.0 plug
+Power (VBUS)
+USB 2.0 differential pair (D−)
+USB 2.0 differential pair (D+)
+USB OTG ID for identifying lines
+GND
+USB 3.0 signal transmission line (−)
+USB 3.0 signal transmission line (+)
+GND
+USB 3.0 signal receiving line (−)
+USB 3.0 signal receiving line (+)
+USB 1.x/2.0 standard pinout
+Pin	Name	Cable color	Description
+1	VBUS	Red (or Orange)	+5 V
+2	D−	White (or Gold)	Data −
+3	D+	Green	Data +
+4	GND	Black (or Blue)	Ground
+USB 1.x/2.0 Mini/Micro pinout
+Pin	Name	Cable color	Description
+1	VBUS	Red	+5 V
+2	D−	White	Data −
+3	D+	Green	Data +
+4	ID	None	Permits distinction of host connection from slave connection
+• host: connected to Signal ground
+• slave: not connected
+5	GND	Black	Signal ground
+
+Connector properties[edit source | editbeta]
+
+
+Standard type A plug and receptacle
+The connectors specified by the USB committee were designed to support a number of USB's underlying goals, and to reflect lessons learned from the menagerie of connectors which have been used in the computer industry. The connector mounted on the host or device is called the receptacle, and the connector attached to the cable is called the plug.[33] The standard purposely defines this to prevent the use of extension cables.[citation needed] The official USB specification documents also periodically define the term male to represent the plug, and female to represent the receptacle.[citation needed]
+Usability and "upside down" connectors[edit source | editbeta]
+
+
+USB extension cord
+By design, it is difficult to insert a USB plug into its receptacle incorrectly. The USB specification states that the required USB icon must be embossed on the "topside" of the USB plug, which "...provides easy user recognition and facilitates alignment during the mating process." The specification also shows that the "recommended" "Manufacturer's logo" ("engraved" on the diagram but not specified in the text) is on the opposite side of the USB icon. The specification further states, "The USB Icon is also located adjacent to each receptacle. Receptacles should be oriented to allow the icon on the plug to be visible during the mating process." However, the specification does not consider the height of the device compared to the eye level height of the user, so the side of the cable that is "visible" when mated to a computer on a desk can depend on whether the user is standing or kneeling.[33]
+Only moderate force is needed to insert or remove a USB cable. USB cables and small USB devices are held in place by the gripping force from the receptacle (without need of the screws, clips, or thumb-turns other connectors have required).
+The standard connectors were deliberately intended to enforce the directed topology of a USB network: type A connectors on host devices that supply power and type B connectors on target devices that receive power. This prevents users from accidentally connecting two USB power supplies to each other, which could lead to dangerously high currents, circuit failures, or even fire. USB does not support cyclic networks and the standard connectors from incompatible USB devices are themselves incompatible.
+Durability[edit source | editbeta]
+The standard connectors were designed to be robust. Because USB is hot-pluggable, the connectors would be used more frequently, and perhaps with less care, than other connectors. Many previous connector designs were fragile, specifying embedded component pins or other delicate parts that were vulnerable to bending or breaking. The electrical contacts in a USB connector are protected by an adjacent plastic tongue, and the entire connecting assembly is usually protected by an enclosing metal sheath.
+The connector construction always ensures that the external sheath on the plug makes contact with its counterpart in the receptacle before any of the four connectors within make electrical contact. The external metallic sheath is typically connected to system ground, thus dissipating damaging static charges. This enclosure design also provides a degree of protection from electromagnetic interference to the USB signal while it travels through the mated connector pair (the only location when the otherwise twisted data pair travels in parallel). In addition, because of the required sizes of the power and common connections, they are made after the system ground but before the data connections. This type of staged make-break timing allows for electrically safe hot-swapping.
+The newer Micro-USB receptacles are designed for up to 10,000 cycles of insertion and removal between the receptacle and plug, compared to 1,500 for the standard USB and 5,000 for the Mini-USB receptacle. This is accomplished by adding a locking device and by moving the leaf-spring connector from the jack to the plug, so that the most-stressed part is on the cable side of the connection. This change was made so that the connector on the less expensive cable would bear the most wear instead of the more expensive micro-USB device.[34]
+Compatibility[edit source | editbeta]
+The USB standard specifies relatively loose tolerances for compliant USB connectors to minimize physical incompatibilities in connectors from different vendors. To address a weakness present in some other connector standards, the USB specification also defines limits to the size of a connecting device in the area around its plug. This was done to prevent a device from blocking adjacent ports due to the size of the cable strain relief mechanism (usually molding integral with the cable outer insulation) at the connector. Compliant devices must either fit within the size restrictions or support a compliant extension cable that does.
+In general, cables have only plugs, and hosts and devices have only receptacles. Hosts almost universally have type-A receptacles, and devices one or another type-B variety. Type-A plugs mate only with type-A receptacles, and type-B with type-B; they are deliberately physically incompatible. However, an extension to USB standard specification called USB On-The-Go allows a single port to act as either a host or a device—chosen by which end of the cable plugs into the receptacle on the unit. Even after the cable is hooked up and the units are communicating, the two units may "swap" ends under program control. This capability is meant for units such as PDAs in which the USB link might connect to a PC's host port as a device in one instance, yet connect as a host itself to a keyboard and mouse device in another instance.
+USB 3.0 connectors[edit source | editbeta]
+Type A plugs and receptacles from both USB 3.0 and USB 2.0 are designed to interoperate.
+Type B receptacles in USB 3.0 are somewhat larger than would be required for a Type B plug in USB 2.0 and earlier. The larger dimension for a USB 3.0 Type B receptacle is intended to allow connecting of either the larger USB 3.0 Type B plug or the smaller USB 2.0 or earlier Type B plug into a newer USB 3.0 Type B receptacle. Accordingly, a USB 3.0 Type B receptacle on a peripheral device can be connected using the corresponding plug end of a USB 2.0 Type B cable.
+Type B plugs in USB 3.0 are somewhat larger; therefore, a USB 3.0 Type B plug cannot enter a USB 2.0 or earlier Type B receptacle. Accordingly, normal USB 3.0 Type B plugs cannot be inserted into normal USB 2.0 Type B receptacles found on peripheral devices (and connect them to a computer).
+A receptacle for eSATAp (eSATA/USB Combo) is designed to accept USB Type A plugs from USB 2.0 and USB 3.0.
+Connector types[edit source | editbeta]
+
+
+Types of USB connectors left to right (ruler in centimeters): Micro-B plug, UC-E6 proprietary (non-USB) plug, Mini-B plug, Standard-A receptacle (upside down), Standard-A plug, Standard-B plug
+There are several types of USB connectors, including some that have been added while the specification progressed. The original USB specification detailed Standard-A and Standard-B plugs and receptacles; the B connector was necessary so that cabling could be plug ended at both ends and still prevent users from connecting one computer receptacle to another. The first engineering change notice to the USB 2.0 specification added Mini-B plugs and receptacles.
+The data connectors in the Standard-A plug are actually recessed in the plug as compared to the outside power connectors. This permits the power to connect first, which prevents data errors by allowing the device to power up first and then transfer the data. Some devices operate in different modes depending on whether the data connection is made. This difference in connection can be exploited by inserting the connector only partially. For example, some battery-powered MP3 players switch into file transfer mode and cannot play MP3 files while a USB plug is fully inserted, but can be operated in MP3 playback mode using USB power by inserting the plug only part way so that the power slots make contact while the data slots do not. This enables those devices to be operated in MP3 playback mode while getting power from the cable.[original research?]
+To reliably enable a charge-only feature, modern USB accessory peripherals now include charging cables that provide power connections to the host port but no data connections, and both home and vehicle charging docks are available that supply power from a converter device and do not include a host device and data pins, allowing any capable USB device to charge or operate from a standard USB cable.
+Standard connectors[edit source | editbeta]
+
+
+Pin configuration of the USB connectors Standard A/B, viewed looking into face/end of plug
+The USB 2.0 Standard-A type of USB plug is a flattened rectangle that inserts into a "downstream-port" receptacle on the USB host, or a hub, and carries both power and data. This plug is frequently seen on cables that are permanently attached to a device, such as one connecting a keyboard or mouse to the computer via USB connection.
+USB connections eventually wear out as the connection loosens through repeated plugging and unplugging. The lifetime of a USB-A male connector is approximately 1,500 connect/disconnect cycles.[35]
+A Standard-B plug—which has a square shape with bevelled exterior corners—typically plugs into an "upstream receptacle" on a device that uses a removable cable, e.g. a printer. On some devices, the Type B receptacle has no data connections, being used solely for accepting power from the upstream device. This two-connector-type scheme (A/B) prevents a user from accidentally creating an electrical loop.[36]
+Mini and Micro connectors[edit source | editbeta]
+
+
+Micro A USB
+
+
+Micro B USB
+
+
+USB Mini A (left) and USB Mini B (right) plugs
+Various connectors have been used for smaller devices such as digital cameras, smartphones, and tablet computers. These include the now-deprecated[37] (i.e. de-certified but standardized) Mini-A and Mini-AB connectors (Mini-B connectors are still supported but not OTG (On The Go, i.e. mobile) compliant).[38] The Mini-B USB connector was standard for transferring data to and from the early data phones and PDAs, such as Blackberrys.
+The Mini-A and Mini-B plugs are approximately 3 by 7 mm. The micro-USB plugs have a similar width and approximately half the thickness, enabling their integration into thinner portable devices. The micro-A connector is 6.85 by 1.8 mm with a maximum overmold size of 11.7 by 8.5 mm. The micro-B connector is 6.85 by 1.8 mm with a maximum overmold size of 10.6 by 8.5 mm.[32]
+The Micro-USB connector was announced by the USB-IF on 4 January 2007.[39] The Mini-A connector and the Mini-AB receptacle connector were deprecated on 23 May 2007.[40] While many currently available devices and cables still use Mini plugs, the newer Micro connectors are being widely adopted and as of December 2010, they are the most widely used[citation needed]. The thinner micro connectors are intended to replace the Mini plugs in new devices including smartphones, personal digital assistants, and cameras.[41] The Micro plug design is rated for at least 10,000 connect-disconnect cycles—significantly more than the Mini plug design.[42] It is also designed to reduce the mechanical wear on the device; instead the easier-to-replace cable is designed to bear the mechanical wear of connection and disconnection. The Universal Serial Bus Micro-USB Cables and Connectors Specification details the mechanical characteristics of Micro-A plugs, Micro-AB receptacles (which accept both Micro-A and Micro-B plugs), and Micro-B plugs and receptacles,[42] along with a Standard-A receptacle to Micro-A plug adapter.
+The cellular phone carrier group, Open Mobile Terminal Platform (OMTP) in 2007 endorsed Micro-USB as the standard connector for data and power on mobile devices[43] In addition, on 22 October 2009 the International Telecommunication Union (ITU) has also announced that it had embraced micro-USB as the Universal Charging Solution its "energy-efficient one-charger-fits-all new mobile phone solution", and added: "Based on the Micro-USB interface, UCS chargers also include a 4-star or higher efficiency rating—up to three times more energy-efficient than an unrated charger."[44]
+The European Standardisation Bodies CEN, CENELEC and ETSI (independent of the OMTP/GSMA proposal) defined a common External Power Supply (EPS) for use with smartphones sold in the EU based on micro-USB.[45] 14 of the world's largest mobile phone manufacturers signed the EU's common EPS Memorandum of Understanding (MoU).[46][47] Apple Inc., one of the original MoU signers, make micro-USB adapters available – as permitted in the Common EPS MoU – for its iPhones equipped with Apple's proprietary 30 pin dock connector or (later) "Lightning" connector.[48][49]
+USB On-The-Go Connectors[edit source | editbeta]
+A USB On-The-Go device is required to have one, and only one USB connector: a Micro-AB receptacle. This receptacle is capable of accepting both Micro-A and Micro-B plugs, attached to any of the legal cables and adapters as defined in Micro-USB1.01.
+The OTG device with the A-plug inserted is called the A-device and is responsible for powering the USB interface when required and by default assumes the role of host. The OTG device with the B-plug inserted is called the B-device and by default assumes the role of peripheral. An OTG device with no plug inserted defaults to acting as a B-device. If an application on the B-device requires the role of host, then the Host Negotiation Protocol (HNP) is used to temporarily transfer the host role to the B-device.
+OTG devices attached either to a peripheral-only B-device or a standard/embedded host have their role fixed by the cable, since in these scenarios it is only possible to attach the cable one way.[citation needed]
+Host and Device interface receptacles[edit source | editbeta]
+The following receptacles accept the following plugs (note that all pin numbers as shown are as per plug; for receptacles numbers as shown are looking from the back out the front; a more typical manufacturer's "top" view into the receptacle would show the pin numbers as mirrored):

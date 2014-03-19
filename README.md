@@ -34,7 +34,7 @@ Search for a keyword using the created index:
 
 This will output a ranked list of documents in the corpus with cosine-similarity scores for the search of keyword 'weapon'.
 
-Do the following on the command line to search for documents in the corpus that match 'weapon':
+Do the following on the command line to search for documents in the corpus that contain the word 'weapon':
 > grep -rl 'weapon' corpus/*
 
 Now compare this list of documents to what soda output for a search of 'weapon' and you will notice that soda found some documents that ranked highly for 'weapon' that did not even mention the word 'weapon'. If you read those documents you can see the topic of those documents share some semantic relatedness to the word 'weapon'!   
